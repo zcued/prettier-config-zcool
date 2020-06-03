@@ -1,6 +1,6 @@
 {
   "name": "@zcool/prettier-config",
-  "version": "0.1.0-beta",
+  "version": "1.0.0-rc.1",
   "main": "index.json",
   "repository": "git@git.hellorf.work:fe/zcool-prettier-config.git",
   "author": "zhanghao <zhanghao@zcool.com.cn>",
