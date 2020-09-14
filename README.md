@@ -5,12 +5,12 @@ ZCOOL FE Prettier Configuration. See all prettier config options [here](https://
 ## Usage
 **Install**:
 ```bash
-$ yarn add -D @zcool/prettier-config
+$ yarn add -D @zcool/prettier-config prettier
 ```
 
 **Edit `package.json`**
 
-```jsonc
+```json
 {
   // ...
   "prettier": "@zcool/prettier-config"

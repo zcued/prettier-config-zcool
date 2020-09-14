@@ -1,8 +1,27 @@
 {
   "name": "@zcool/prettier-config",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
+  "description": "prettier config for zcool",
+  "prettier": "@zcool/prettier-config",
   "main": "index.json",
-  "repository": "git@git.hellorf.work:fe/zcool-prettier-config.git",
-  "author": "zhanghao <zhanghao@zcool.com.cn>",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zcued/prettier-config-zcool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zcued/prettier-config-zcool/issues"
+  },
+  "keywords": [
+    "prettier",
+    "prettier config",
+    "zcool"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@zcool/prettier-config": "^1.0.0-rc.2",
+    "prettier": "^2.0.5"
+  },
+  "peerDependencies": {
+    "prettier": "^2.0.5"
+  }
 }
