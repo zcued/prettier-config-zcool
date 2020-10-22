@@ -8,14 +8,10 @@ ZCOOL FE Prettier Configuration. See all prettier config options [here](https://
 $ yarn add -D @zcool/prettier-config prettier
 ```
 
-**Add `.stylelintrc.js`**
+**Edit `package.json`**
+  add: 
   ```js
-  module.exports = {
-    extends: '@zcool/stylelint-config/sc',
-    rules: {
-      'value-keyword-case': null,
-    },
-  }
+  "prettier": "@zcool/prettier-config",
   ```
 
 **Remove old `.prettierrc` file**
